@@ -15,3 +15,18 @@ dev_dependencies:
 ```bash
 pub run dartmon example/main.dart Dartmon
 ```
+
+### With [derry](https://pub.dev/packages/derry)
+* Install derry from [pub.dev](https://pub.dev/packages/derry)
+* Add scripts to pubspec.yaml
+  ```yaml
+  scripts:
+    dev: pub run dartmon example/main.dart Dartmon
+  ```
+* Run script from command-line
+  ```bash
+  derry dev
+  ```
+
+### License
+MIT © 2021 Akash Mondal
